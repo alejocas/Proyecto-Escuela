@@ -1,0 +1,45 @@
+c:\users\usuario\documents\visual studio 2015\Projects\relacionar\relacionar\bin\Debug\relacionar.exe.config
+c:\users\usuario\documents\visual studio 2015\Projects\relacionar\relacionar\obj\Debug\relacionar.csprojResolveAssemblyReference.cache
+c:\users\usuario\documents\visual studio 2015\Projects\relacionar\relacionar\obj\Debug\relacionar.Properties.Resources.resources
+c:\users\usuario\documents\visual studio 2015\Projects\relacionar\relacionar\obj\Debug\relacionar.csproj.GenerateResource.Cache
+c:\users\usuario\documents\visual studio 2015\Projects\relacionar\relacionar\bin\Debug\relacionar.exe
+c:\users\usuario\documents\visual studio 2015\Projects\relacionar\relacionar\bin\Debug\relacionar.pdb
+c:\users\usuario\documents\visual studio 2015\Projects\relacionar\relacionar\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+c:\users\usuario\documents\visual studio 2015\Projects\relacionar\relacionar\obj\Debug\relacionar.exe
+c:\users\usuario\documents\visual studio 2015\Projects\relacionar\relacionar\obj\Debug\relacionar.pdb
+c:\users\usuario\documents\visual studio 2015\Projects\relacionar\relacionar\obj\Debug\relacionar.parejas.resources
+c:\users\usuario\documents\visual studio 2015\Projects\relacionar\relacionar\obj\Debug\relacionar.modcols.resources
+C:\Users\lis\Downloads\relacionar\relacionar\bin\Debug\relacionar.exe.config
+C:\Users\lis\Downloads\relacionar\relacionar\obj\Debug\relacionar.exe
+C:\Users\lis\Downloads\relacionar\relacionar\obj\Debug\relacionar.pdb
+C:\Users\lis\Downloads\relacionar\relacionar\bin\Debug\relacionar.exe
+C:\Users\lis\Downloads\relacionar\relacionar\bin\Debug\relacionar.pdb
+C:\Users\lis\Downloads\relacionar\relacionar\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\lis\Downloads\relacionar\relacionar\obj\Debug\relacionar.csprojResolveAssemblyReference.cache
+C:\Users\lis\Downloads\relacionar\relacionar\obj\Debug\relacionar.parejas.resources
+C:\Users\lis\Downloads\relacionar\relacionar\obj\Debug\relacionar.modcols.resources
+C:\Users\lis\Downloads\relacionar\relacionar\obj\Debug\relacionar.Properties.Resources.resources
+C:\Users\lis\Downloads\relacionar\relacionar\obj\Debug\relacionar.csproj.GenerateResource.Cache
+C:\Users\USUARIO\Downloads\relacionar\relacionar\bin\Debug\relacionar.exe.config
+C:\Users\USUARIO\Downloads\relacionar\relacionar\obj\Debug\relacionar.exe
+C:\Users\USUARIO\Downloads\relacionar\relacionar\obj\Debug\relacionar.pdb
+D:\Proyecto Escuela\Relacionar Nuevo\relacionar\relacionar\bin\Debug\relacionar.exe.config
+D:\Proyecto Escuela\Relacionar Nuevo\relacionar\relacionar\obj\Debug\relacionar.exe
+D:\Proyecto Escuela\Relacionar Nuevo\relacionar\relacionar\obj\Debug\relacionar.pdb
+D:\Proyecto Escuela\Relacionar Nuevo\relacionar\relacionar\bin\Debug\relacionar.exe
+D:\Proyecto Escuela\Relacionar Nuevo\relacionar\relacionar\bin\Debug\relacionar.pdb
+D:\Proyecto Escuela\Relacionar Nuevo\relacionar\relacionar\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+D:\Proyecto Escuela\Relacionar Nuevo\relacionar\relacionar\bin\Debug\es\Microsoft.VisualStudio.GraphModel.resources.dll
+D:\Proyecto Escuela\Relacionar Nuevo\relacionar\relacionar\obj\Debug\relacionar.csprojResolveAssemblyReference.cache
+D:\Proyecto Escuela\Relacionar Nuevo\relacionar\relacionar\obj\Debug\relacionar.parejas.resources
+D:\Proyecto Escuela\Relacionar Nuevo\relacionar\relacionar\obj\Debug\relacionar.modcols.resources
+D:\Proyecto Escuela\Relacionar Nuevo\relacionar\relacionar\obj\Debug\relacionar.Properties.Resources.resources
+D:\Proyecto Escuela\Relacionar Nuevo\relacionar\relacionar\obj\Debug\relacionar.csproj.GenerateResource.Cache
+C:\Users\USUARIO\Downloads\relacionar\relacionar\bin\Debug\relacionar.exe
+C:\Users\USUARIO\Downloads\relacionar\relacionar\bin\Debug\relacionar.pdb
+C:\Users\USUARIO\Downloads\relacionar\relacionar\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\USUARIO\Downloads\relacionar\relacionar\obj\Debug\relacionar.csprojResolveAssemblyReference.cache
+C:\Users\USUARIO\Downloads\relacionar\relacionar\obj\Debug\relacionar.parejas.resources
+C:\Users\USUARIO\Downloads\relacionar\relacionar\obj\Debug\relacionar.modcols.resources
+C:\Users\USUARIO\Downloads\relacionar\relacionar\obj\Debug\relacionar.Properties.Resources.resources
+C:\Users\USUARIO\Downloads\relacionar\relacionar\obj\Debug\relacionar.csproj.GenerateResource.Cache
