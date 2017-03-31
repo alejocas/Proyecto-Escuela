@@ -41,6 +41,7 @@ namespace Proyecto_Escuela.DAOS
                 for (int i = 0; i < 8; i++)
                 {
                     arreglo[i] = reader.GetString(i+1);
+                    Console.WriteLine("Holi "+reader.GetString(i + 1));
                 }
                 secuencia.SetSecuencia(arreglo);
             }

@@ -19,10 +19,13 @@ namespace Proyecto_Escuela
         private string titulo;
         private MenuActividadesController menuActividades;
         private Jugador jugador;
+        private ListaEstudianteController lista;
+        private ListaTextosController textos;
         //Constructor
-        public VistaLectura(Texto texto, Jugador jugador)
+        public VistaLectura(Texto texto, Jugador jugador, ListaEstudianteController lista, ListaTextosController textos)
         {
             InitializeComponent();
+            this.lista = lista;
             this.jugador = jugador;
             this.titulo = texto.getTitulo();
             this.tiempo = texto.getTiempo();
@@ -62,7 +65,7 @@ namespace Proyecto_Escuela
 
         private void jugar_Click(object sender, EventArgs e)
         {
-            menuActividades = new MenuActividadesController(titulo, jugador);
+            menuActividades = new MenuActividadesController(titulo, jugador, lista, textos);
             this.Dispose();
         }
     }

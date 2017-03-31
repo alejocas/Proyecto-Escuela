@@ -13,11 +13,10 @@ namespace Proyecto_Escuela.Controllers
     {        
         MenuActividades menu;
                 
-        public MenuActividadesController(string titulo, Jugador jugador)
+        public MenuActividadesController(string titulo, Jugador jugador, ListaEstudianteController lista, ListaTextosController textos)
         {
-            menu = new MenuActividades(titulo, jugador);            
-            menu.Show();
-            
+            menu = new MenuActividades(titulo, jugador, lista, textos);            
+            menu.Show();            
         }
         
     }

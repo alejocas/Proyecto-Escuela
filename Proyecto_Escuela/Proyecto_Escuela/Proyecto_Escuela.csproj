@@ -60,7 +60,6 @@
     <Compile Include="Controllers\ListaTextosController.cs" />
     <Compile Include="Controllers\LecturaController.cs" />
     <Compile Include="Controllers\SecuenciaController.cs" />
-    <Compile Include="Controllers\SecuenciaImagenController.cs" />
     <Compile Include="Controllers\TextoController.cs" />
     <Compile Include="DAOS\ConexionDB.cs" />
     <Compile Include="DAOS\DAODescribeImagen.cs" />

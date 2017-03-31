@@ -28,22 +28,34 @@ namespace Proyecto_Escuela.Views
         private SecuenciaController tc;
         private string[] ordenCorrecto;
         private bool ansiado = false;
-        private int intentos = 1;
+        private Jugador jugador;
+        private int errores = 0;
+        private MenuActividades menu;
 
         #region Empty constructor
         /// <summary>
         /// Empty constructor
         /// </summary>
-        public SecuenciaImagenes(int numImagenes, Jugador nino, string[] rutaDeImagenes, string[] ordenCorrectoImagenes)
+        public SecuenciaImagenes(Jugador nino, SecuenciaController controller, SecuenciaImagenModel model, MenuActividades menu)
         {
+            if (model.GetSecuencia().Count() == 0)
+            {
+                MessageBox.Show("No hay actividad");
+                this.Dispose();
+            }
+            
             InitializeComponent();
+            this.menu = menu;
+            this.jugador = nino;
+            this.tc = controller;
             this.BackColor = Color.Chocolate;
             this.lblNombre.Text = nino.GetNombre() + " " + nino.GetApellido();
             int xSpot;
             int ySpot;
             int pp;
-            string[] imagenes = rutaDeImagenes;
-            ordenCorrecto = ordenCorrectoImagenes;
+            string[] imagenes = model.GetSecuencia();
+            int numImagenes = imagenes.Count();
+            ordenCorrecto = model.GetSecuencia();
             Random rnd = new Random();
             bool[] imgUsada = new bool[numImagenes];
             // Initialize the grid
@@ -119,33 +131,36 @@ namespace Proyecto_Escuela.Views
                 }
             }
         }
-        #endregion
-
-        private void SecuenciaImagenes_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            Application.Exit();
-        }
+        #endregion      
 
         private void btnComprobacion_Click(object sender, EventArgs e)
-        {
-
-            tc = new SecuenciaController();
+        {                       
             ansiado = tc.Comprobar(encaje, ordenCorrecto);
             if (ansiado)
             {
+                jugador.GetDesempeño()[1].SetDesempeño(1, errores);
                 MessageBox.Show("Felicidades :D","Felicitaciones");
-
+                btnComprobacion.Enabled = false;
+                menu.JuegoTerminado(2);
+                
             }
             else
             {
-                intentos++;
-                MessageBox.Show("Sigue intentando, vas para el intento #" + intentos,"Felicitaciones");
+                errores++;
+                MessageBox.Show("Sigue intentando, vas para el intento #" + errores,"Felicitaciones");
             }
         }
 
         private void btnInfo_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Buen día querido jugador/a, para jugar debes arrastrar las imágenes\ny colocarlas en el orden correcto, buena suerte.");
+        }
+
+        private void regresar_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            menu.Visible = true;
+            jugador.GetDesempeño()[1].SetDesempeño(1, errores);
         }
     }
 }

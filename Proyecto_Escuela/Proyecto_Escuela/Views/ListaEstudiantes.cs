@@ -37,8 +37,8 @@ namespace Proyecto_Escuela.Views
             Jugador play = new Jugador();
             play = listaEstudianteController.retornarEstudiante(tabla, filasEstudiantes);
             Console.WriteLine(play.GetApellido());
-            ListaTextosController ListaTextos = new ListaTextosController(play);
-            this.Dispose();
+            ListaTextosController ListaTextos = new ListaTextosController(play, listaEstudianteController);
+            this.Visible = false;
         }
 
         private void ListaEstudiantes_FormClosed(object sender, FormClosedEventArgs e)

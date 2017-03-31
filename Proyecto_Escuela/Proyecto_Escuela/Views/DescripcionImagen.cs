@@ -50,6 +50,7 @@ namespace Proyecto_Escuela.Views
             catch
             {
                 MessageBox.Show("No hay actividad");
+                this.Dispose();
             }
             
         }
@@ -62,7 +63,7 @@ namespace Proyecto_Escuela.Views
                 jugador.GetDesempeño()[0].SetDesempeño(int.Parse(aciertos.Text), int.Parse(errores.Text));
                 menuActividades.Visible = true;
                 menuActividades.JuegoTerminado(1);
-
+                jugador.GetDesempeño()[0].SetDesempeño(int.Parse(aciertos.Text), int.Parse(errores.Text));
                 this.Dispose();
             }
             intentos.Text = (int.Parse(intentos.Text) + 1).ToString();
@@ -139,8 +140,9 @@ namespace Proyecto_Escuela.Views
 
         private void terminar_Click(object sender, EventArgs e)
         {
+            jugador.GetDesempeño()[0].SetDesempeño(int.Parse(aciertos.Text), int.Parse(errores.Text));
             menuActividades.Visible = true;
-            this.Dispose();
+            this.Visible = false;
             if (int.Parse(aciertos.Text) == describeImagenModel.GetImagenes().Count)
             {
                 menuActividades.JuegoTerminado(1);

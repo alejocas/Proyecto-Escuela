@@ -99,6 +99,11 @@ namespace Proyecto_Escuela.Controllers
             return men;
         }
 
+        public void Mostar()
+        {
+            listaEstudiantes.Visible = true;
+        }
+
     }
 
 }

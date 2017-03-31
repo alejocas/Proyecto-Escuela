@@ -103,7 +103,7 @@ namespace Proyecto_Escuela.Controllers
                     {
                         if (lista.GetSecuencia()[i] != null)
                         {
-                            tabla.Rows.Add(i + 1, lista.GetSecuencia()[i], Image.FromFile(lista.GetSecuencia()[i]));
+                            tabla.Rows.Add(i, lista.GetSecuencia()[i], Image.FromFile(lista.GetSecuencia()[i]));
                         }
                     }
                     conexion.CerrarConexion();

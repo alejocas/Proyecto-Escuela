@@ -11,7 +11,10 @@ namespace Proyecto_Escuela.Models
         Desempeño[] desempeño = new Desempeño[2];
                 
         public Jugador()
-        {            
+        {   
+            desempeño[0] = new Desempeño();
+            desempeño[1] = new Desempeño();
+
         }
 
         public Desempeño[] GetDesempeño()

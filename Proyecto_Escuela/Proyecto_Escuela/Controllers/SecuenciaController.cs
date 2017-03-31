@@ -5,11 +5,26 @@ using System.Text;
 using System.Threading.Tasks;
 using Proyecto_Escuela.Models;
 using System.Drawing;
+using Proyecto_Escuela.DAOS;
+using MySql.Data.MySqlClient;
+using System.Windows.Forms;
+using Proyecto_Escuela.Views;
 
 namespace Proyecto_Escuela.Controllers
 {
     public class SecuenciaController
     {
+        private SecuenciaImagenModel secuenciaModel = new SecuenciaImagenModel();
+        private ConexionDB conexion = new ConexionDB();
+        private SecuenciaImagenes vista;
+
+        public SecuenciaController(Jugador jugador, MenuActividades menu)
+        {
+            secuenciaModel.SetTitulo(menu.GetTitulo());
+            this.ListarImagenes();
+            this.vista = new SecuenciaImagenes(jugador, this, secuenciaModel, menu);
+        }
+
         public bool Comprobar(smTile[] encaje, string[] orden)
         {
             try
@@ -27,7 +42,6 @@ namespace Proyecto_Escuela.Controllers
             }
             catch
             {
-                Console.WriteLine("Obveo que falló papuh e,e");
                 return false;
             }
         }
@@ -62,6 +76,34 @@ namespace Proyecto_Escuela.Controllers
                 equals = false;
             }
             return equals;
+        }
+
+        private void ListarImagenes()
+        {
+            try
+            {
+                if (conexion.AbrirConexion() == true)
+                {
+                    secuenciaModel = DAOSecuenciaImagen.ObtenerActividad(conexion.GetConexion(), secuenciaModel.GetTitulo());
+                    conexion.CerrarConexion();
+                }
+            }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+
+        }
+
+        public void mostrar()
+        {
+            vista.Show();
+        }
+
+        public void ocultar()
+        {
+            vista.Visible = false;
         }
     }
 }

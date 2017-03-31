@@ -14,7 +14,7 @@ namespace Proyecto_Escuela.Controllers
 {
     public class DescribeImagenController
     {
-        DescripcionImagen describeImagenView;
+        DescripcionImagen vista;
         DescribeImagenModel describeImagenModel;
         ConexionDB conexion = new ConexionDB();
         string titulo;
@@ -25,8 +25,7 @@ namespace Proyecto_Escuela.Controllers
             describeImagenModel= new DescribeImagenModel();
             ListarImagenes();
             AsignarImagenes(describeImagenModel.GetImagenes());
-            describeImagenView = new DescripcionImagen(this, describeImagenModel, menu, jugador);
-            describeImagenView.Show();
+            vista = new DescripcionImagen(this, describeImagenModel, menu, jugador);
 
         }
         public bool compararRespuesta(int i, string respuesta)
@@ -70,5 +69,16 @@ namespace Proyecto_Escuela.Controllers
                Imagen.SetPicture(lista[i]);
             }
         }
+
+        public void mostrar()
+        {
+            vista.Visible = true;
+        }
+
+        public void ocultar()
+        {
+            vista.Visible = false;
+        }
+
     }    
 }

@@ -14,13 +14,22 @@ namespace Proyecto_Escuela.Views
 {
     public partial class MenuActividades : Form
     {
-        DescribeImagenModel describeImagenModel = new DescribeImagenModel();
-        Jugador jugador;
-        public MenuActividades(string titulo, Jugador jugador)
+        private DescribeImagenModel describeImagenModel = new DescribeImagenModel();
+        private Jugador jugador;
+        private SecuenciaController secuenciaController;
+        private DescribeImagenController describeController;
+        private ListaEstudianteController ListaController;
+        private ListaTextosController listaTextos;
+
+        public MenuActividades(string titulo, Jugador jugador, ListaEstudianteController controller, ListaTextosController listaTextos)
         {
             InitializeComponent();
             tituloLabel.Text = titulo;
             this.jugador = jugador;
+            secuenciaController = new SecuenciaController(jugador, this);
+            describeController = new DescribeImagenController(this,jugador);
+            ListaController = controller;
+            this.listaTextos = listaTextos;
         }
 
         //Getter y Setter de los componentes para su utilización
@@ -44,18 +53,20 @@ namespace Proyecto_Escuela.Views
             {
                 case 1:
                     describe.Enabled = false;
+                    Comprobar();
                     describe.ForeColor = Color.Black;
                     break;
                 case 2:                    
                     secuencia.Enabled = false;
                     secuencia.ForeColor = Color.Black;
+                    Comprobar();
                     break;               
             }
         }
 
         private void describe_Click(object sender, EventArgs e)
         {            
-            new DescribeImagenController(this,jugador);
+            describeController.mostrar();
             this.Visible = false;
         }
 
@@ -66,7 +77,28 @@ namespace Proyecto_Escuela.Views
 
         private void secuencia_Click(object sender, EventArgs e)
         {
-            //new SecuenciaImagenController(6, tituloLabel.Text,);
+            secuenciaController.mostrar();
+            this.Dispose();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ListaController.Mostar();
+            this.Visible = false;
+        }
+        private void Comprobar()
+        {
+            if (secuencia.Enabled == false && describe.Enabled == false)
+            {
+                volverTextos.Enabled = true;
+                volverEstudiantes.Enabled = true;             
+            }
+
+        }
+
+        private void volverTextos_Click(object sender, EventArgs e)
+        {
+            listaTextos.Mostar();
             this.Visible = false;
         }
     }

@@ -31,6 +31,8 @@
             this.tituloLabel = new System.Windows.Forms.Label();
             this.secuencia = new System.Windows.Forms.Button();
             this.describe = new System.Windows.Forms.Button();
+            this.volverEstudiantes = new System.Windows.Forms.Button();
+            this.volverTextos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tituloLabel
@@ -75,11 +77,37 @@
             this.describe.UseVisualStyleBackColor = false;
             this.describe.Click += new System.EventHandler(this.describe_Click);
             // 
+            // volverEstudiantes
+            // 
+            this.volverEstudiantes.Enabled = false;
+            this.volverEstudiantes.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.volverEstudiantes.Location = new System.Drawing.Point(775, 426);
+            this.volverEstudiantes.Name = "volverEstudiantes";
+            this.volverEstudiantes.Size = new System.Drawing.Size(221, 99);
+            this.volverEstudiantes.TabIndex = 6;
+            this.volverEstudiantes.Text = "Volver a estudiantes";
+            this.volverEstudiantes.UseVisualStyleBackColor = true;
+            this.volverEstudiantes.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // volverTextos
+            // 
+            this.volverTextos.Enabled = false;
+            this.volverTextos.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.volverTextos.Location = new System.Drawing.Point(775, 321);
+            this.volverTextos.Name = "volverTextos";
+            this.volverTextos.Size = new System.Drawing.Size(221, 99);
+            this.volverTextos.TabIndex = 7;
+            this.volverTextos.Text = "Volver a textos";
+            this.volverTextos.UseVisualStyleBackColor = true;
+            this.volverTextos.Click += new System.EventHandler(this.volverTextos_Click);
+            // 
             // MenuActividades
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1008, 537);
+            this.Controls.Add(this.volverTextos);
+            this.Controls.Add(this.volverEstudiantes);
             this.Controls.Add(this.describe);
             this.Controls.Add(this.secuencia);
             this.Controls.Add(this.tituloLabel);
@@ -95,5 +123,7 @@
         private System.Windows.Forms.Label tituloLabel;
         private System.Windows.Forms.Button secuencia;
         private System.Windows.Forms.Button describe;
+        private System.Windows.Forms.Button volverEstudiantes;
+        private System.Windows.Forms.Button volverTextos;
     }
 }

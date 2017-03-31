@@ -27,7 +27,12 @@ namespace Proyecto_Escuela.DAOS
         public static int EliminarTexto(MySqlConnection conexion, string titulo)
         {
             int retorno = 0;
-            MySqlCommand comando = new MySqlCommand(string.Format("DELETE FROM Cuento WHERE titulo='{0}'", titulo), conexion);
+            
+            MySqlCommand comando = new MySqlCommand(string.Format("DELETE FROM SecuenciaImagen WHERE titulo='{0}'", titulo), conexion);
+            retorno = comando.ExecuteNonQuery();
+            comando = new MySqlCommand(string.Format("DELETE FROM DescribeImagen WHERE titulo='{0}'", titulo), conexion);
+            retorno = comando.ExecuteNonQuery();
+            comando = new MySqlCommand(string.Format("DELETE FROM Cuento WHERE titulo='{0}'", titulo), conexion);
             retorno = comando.ExecuteNonQuery();
             return retorno;
         }

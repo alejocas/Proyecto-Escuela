@@ -35,7 +35,6 @@ namespace Proyecto_Escuela.Views
             if (getImagen.ShowDialog() == DialogResult.OK)
             {
                 string a = "\\".Substring(0);
-                Console.WriteLine(a);
                 campoImagen.Image = Image.FromFile(getImagen.FileName);
                 ruta = getImagen.FileName.Replace(a, "\\\\");
             }

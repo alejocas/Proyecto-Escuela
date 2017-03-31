@@ -9,14 +9,19 @@ using System.Windows.Forms;
 
 namespace Proyecto_Escuela.Controllers
 {
-    class ListaTextosController
+    public class ListaTextosController
     {
         ListaTextos listaTexto;
 
-        public ListaTextosController(Jugador jugador)
+        public ListaTextosController(Jugador jugador, ListaEstudianteController lista)
         {
-            listaTexto = new ListaTextos(jugador);
+            listaTexto = new ListaTextos(jugador, lista, this);
             listaTexto.Show();
+        }
+
+        public void Mostar()
+        {
+            listaTexto.Visible = true;
         }
 
         

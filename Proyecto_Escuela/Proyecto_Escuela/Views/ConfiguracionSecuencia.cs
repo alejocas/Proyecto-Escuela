@@ -62,6 +62,7 @@ namespace Proyecto_Escuela.Views
 
         private void botonAceptar_Click(object sender, EventArgs e)
         {
+
             SecuenciaImagenModel modelo = new SecuenciaImagenModel();
             modelo.SetTitulo(titulo.SelectedItem.ToString());
             modelo.SetSecuencia(convertirArreglo());
@@ -69,6 +70,7 @@ namespace Proyecto_Escuela.Views
             {
                 if (modificar == true)
                 {
+                    
                     secuenciaController.Editar(modelo);
                 }
                 else
@@ -93,10 +95,11 @@ namespace Proyecto_Escuela.Views
 
         private string[] convertirArreglo()
         {
+            string a = "\\".Substring(0);            
             string[] arreglo = new string[8];
             for (int i = 0; i < 8; i++)
             {
-                arreglo[int.Parse(tabla.Rows[i].Cells[0].Value.ToString())] = tabla.Rows[i].Cells[1].Value.ToString();
+                arreglo[int.Parse(tabla.Rows[i].Cells[0].Value.ToString())] = tabla.Rows[i].Cells[1].Value.ToString().Replace(a, "\\\\");
             }
             return arreglo;
         }
