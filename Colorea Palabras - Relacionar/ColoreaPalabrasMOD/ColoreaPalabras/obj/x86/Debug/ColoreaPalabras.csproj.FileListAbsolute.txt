@@ -1,0 +1,38 @@
+C:\Documents and Settings\office\mis documentos\visual studio 2010\Projects\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\office\mis documentos\visual studio 2010\Projects\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\ColoreaPalabras.Form1.resources
+C:\Documents and Settings\office\mis documentos\visual studio 2010\Projects\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\ColoreaPalabras.Properties.Resources.resources
+C:\Documents and Settings\office\mis documentos\visual studio 2010\Projects\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\office\mis documentos\visual studio 2010\Projects\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\office\mis documentos\visual studio 2010\Projects\ColoreaPalabras\ColoreaPalabras\bin\Debug\ColoreaPalabras.exe
+C:\Documents and Settings\office\mis documentos\visual studio 2010\Projects\ColoreaPalabras\ColoreaPalabras\bin\Debug\ColoreaPalabras.pdb
+C:\Documents and Settings\office\mis documentos\visual studio 2010\Projects\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\ColoreaPalabras.exe
+C:\Documents and Settings\office\mis documentos\visual studio 2010\Projects\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\ColoreaPalabras.pdb
+C:\Users\lis\Downloads\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\ColoreaPalabras.exe
+C:\Users\lis\Downloads\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\ColoreaPalabras.pdb
+C:\Users\lis\Downloads\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\ColoreaPalabras.csprojResolveAssemblyReference.cache
+C:\Users\lis\Downloads\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\ColoreaPalabras.Properties.Resources.resources
+C:\Users\lis\Downloads\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\ColoreaPalabras.csproj.GenerateResource.Cache
+C:\Users\lis\Downloads\ColoreaPalabras\ColoreaPalabras\bin\Debug\ColoreaPalabras.exe
+C:\Users\lis\Downloads\ColoreaPalabras\ColoreaPalabras\bin\Debug\ColoreaPalabras.pdb
+C:\Users\lis\Downloads\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\ColoreaPalabras.coloreaPalabras.resources
+C:\Users\lis\Downloads\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\ColoreaPalabras.modText.resources
+C:\Documents and Settings\office\Mis documentos\Downloads\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\ColoreaPalabras.exe
+C:\Documents and Settings\office\Mis documentos\Downloads\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\ColoreaPalabras.pdb
+C:\Users\USUARIO\Downloads\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\ColoreaPalabras.exe
+C:\Users\USUARIO\Downloads\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\ColoreaPalabras.pdb
+C:\Users\USUARIO\Downloads\ColoreaPalabras\ColoreaPalabras\bin\Debug\ColoreaPalabras.exe
+C:\Users\USUARIO\Downloads\ColoreaPalabras\ColoreaPalabras\bin\Debug\ColoreaPalabras.pdb
+C:\Users\USUARIO\Downloads\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\ColoreaPalabras.csprojResolveAssemblyReference.cache
+C:\Users\USUARIO\Downloads\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\ColoreaPalabras.coloreaPalabras.resources
+C:\Users\USUARIO\Downloads\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\ColoreaPalabras.modText.resources
+C:\Users\USUARIO\Downloads\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\ColoreaPalabras.Properties.Resources.resources
+C:\Users\USUARIO\Downloads\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\ColoreaPalabras.csproj.GenerateResource.Cache
+D:\Proyecto Escuela\Colorea 3\ColoreaPalabras\ColoreaPalabras\bin\Debug\ColoreaPalabras.exe
+D:\Proyecto Escuela\Colorea 3\ColoreaPalabras\ColoreaPalabras\bin\Debug\ColoreaPalabras.pdb
+D:\Proyecto Escuela\Colorea 3\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\ColoreaPalabras.csprojResolveAssemblyReference.cache
+D:\Proyecto Escuela\Colorea 3\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\ColoreaPalabras.coloreaPalabras.resources
+D:\Proyecto Escuela\Colorea 3\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\ColoreaPalabras.modText.resources
+D:\Proyecto Escuela\Colorea 3\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\ColoreaPalabras.Properties.Resources.resources
+D:\Proyecto Escuela\Colorea 3\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\ColoreaPalabras.csproj.GenerateResource.Cache
+D:\Proyecto Escuela\Colorea 3\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\ColoreaPalabras.exe
+D:\Proyecto Escuela\Colorea 3\ColoreaPalabras\ColoreaPalabras\obj\x86\Debug\ColoreaPalabras.pdb
